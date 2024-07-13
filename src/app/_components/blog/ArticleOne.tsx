@@ -8,7 +8,7 @@ export default function ArticleOne() {
       <div className="max-w-xs overflow-hidden rounded-lg bg-purple-950 text-white shadow-lg">
         <div className="flex justify-center">
           <Image
-            src="/Article_Image.png"
+            src="/ArticleImage.png"
             alt="Article 1"
             width={300}
             height={300}

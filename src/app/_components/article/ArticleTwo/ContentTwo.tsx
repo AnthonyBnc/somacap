@@ -10,7 +10,7 @@ const Content = () => {
       </p>
       <div className="mt-4">
         <Image
-          src="/Article_Image.png"
+          src="/ArticleImage.png"
           alt="Tech Innovations"
           width={800}
           height={400}
