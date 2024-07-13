@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 export default function ArticleContent() {
   return (
@@ -10,8 +9,8 @@ export default function ArticleContent() {
         space can command massive valuation premiums.
       </p>
       <div className="mt-4">
-        <Image
-          src="/Article.png"
+        <img
+          src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*owaiVANQZZrYYlrO"
           alt="Market Map"
           width={800}
           height={400}
