@@ -1,8 +1,8 @@
 import React from "react";
 import HeaderArticle from "../_components/HeadnFooter/Header";
 import Footer from "../_components/HeadnFooter/Footer";
-import ProfileTwo from "../_components/article/ArticleTwo/ProfileTwo";
-import ContentTwo from "../_components/article/ArticleTwo/ContentTwo";
+import ProfileTwo from "../_components/ArticleTwo/ProfileTwo";
+import ContentTwo from "../_components/ArticleTwo/ContentTwo";
 
 export default function ArticlePage() {
   return (
