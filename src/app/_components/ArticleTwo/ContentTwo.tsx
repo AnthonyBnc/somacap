@@ -20,8 +20,8 @@ const Content = () => {
       <div className="mt-6">
         <h2 className="text-2xl font-semibold">Emerging Technologies</h2>
         <p className="mt-2 text-gray-600">
-          Over the past few years, we've seen tremendous growth in areas such as
-          artificial intelligence, machine learning, blockchain, and quantum
+          Over the past few years, we have seen tremendous growth in areas such
+          as artificial intelligence, machine learning, blockchain, and quantum
           computing. These technologies are set to revolutionize industries and
           change the way we live and work.
         </p>
@@ -31,7 +31,7 @@ const Content = () => {
         <p className="mt-2 text-gray-600">
           The adoption of these technologies will have a profound impact on
           society, driving innovation, creating new job opportunities, and
-          solving complex problems. It's an exciting time to be involved in the
+          solving complex problems. It is an exciting time to be involved in the
           tech industry.
         </p>
       </div>
