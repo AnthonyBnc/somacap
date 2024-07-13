@@ -1,7 +1,9 @@
-import Link from "next/link";
 import React from "react";
 import { getServerAuthSession } from "~/server/auth";
-import { api } from "~/trpc/server";
+import TopSectionCompo from "./_components/somaCap/landingtest";
+import DesktopFilter from "./_components/Filter/DesktopFilter";
+import BlogArticle from "./_components/blog/Blog";
+import Footer from "./_components/HeadnFooter/Footer";
 
 async function fetchSession() {
   const session = await getServerAuthSession();
@@ -17,7 +19,19 @@ export default async function Home() {
 
   return (
     <div>
-      <h1>Home</h1>
+      <TopSectionCompo />
+      <div className="relative mx-auto max-w-6xl px-4 py-4">
+        <DesktopFilter />
+      </div>
+      <div className="relative mx-auto max-w-6xl px-4">
+        <BlogArticle />
+      </div>
+      <div className="mb-5 flex items-center justify-center">
+        <button className="flex items-center justify-center rounded-lg bg-deepPurple px-4 py-2 font-semibold text-white shadow-md hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">
+          More Article
+        </button>
+      </div>
+      <Footer />
     </div>
   );
 }
