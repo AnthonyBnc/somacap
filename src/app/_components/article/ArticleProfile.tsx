@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ArticleProfile() {
   return (
-    <div className="flex flex-col items-center p-4">
+    <div className="flex flex-col p-7">
       <Image
         src="/User2.jpg"
         alt="Profile"

@@ -17,7 +17,7 @@ export default function ArticleOne() {
         </div>
 
         <div className="p-4">
-          <Link href="#" className="hover:underline">
+          <Link href="/ArticlePageTwo" className="hover:underline">
             <h2 className="mb-2 text-xl font-semibold">
               Green Financing That Promotes Sustainable Initiatives
             </h2>

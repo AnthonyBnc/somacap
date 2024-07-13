@@ -13,7 +13,7 @@ const LandingPage: React.FC = () => {
           Subscribe to the Soma Newsletter
         </button>
         <div className="mt-6 flex items-center justify-center rounded-b-lg bg-white p-2 px-1 py-5">
-          <Link href="https://somacap.com">
+          <Link href="/">
             <Image src="/soma.png" alt="Soma Capital" width={60} height={60} />
           </Link>
         </div>
