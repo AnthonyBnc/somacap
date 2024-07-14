@@ -18,10 +18,10 @@ export default async function Home() {
   }
 
   return (
-    <div>
+    <div className="w-fit md:w-full">
       <LandingPage />
       <div className="relative mx-auto px-4">
-        <div className="relative mx-auto flex min-h-screen flex-col items-center px-4 py-4 md:max-w-6xl">
+        <div className="relative mx-auto min-h-screen px-4 py-4 md:max-w-6xl">
           <DesktopFilter />
           <BlogArticle />
         </div>
@@ -31,9 +31,7 @@ export default async function Home() {
           More Article
         </button>
       </div>
-      <div className="w-full">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }
