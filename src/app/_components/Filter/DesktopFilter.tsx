@@ -1,9 +1,12 @@
 "use client";
 import React, { useState } from "react";
+import { SlidersHorizontal } from "lucide-react";
+import Modal from "./Modal";
 
-export default function DesktopFilter() {
+const DesktopFilter = () => {
   const [selectedContent, setSelectedContent] = useState("All");
   const [selectedIndustry, setSelectedIndustry] = useState("All");
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const contentOptions = ["All", "Sector Thesis", "Research"];
   const industryOptions = [
@@ -21,8 +24,8 @@ export default function DesktopFilter() {
   ];
 
   return (
-    <>
-      <div className="p-4">
+    <div className="relative">
+      <div className="hidden p-4 md:block">
         <div className="mb-4">
           <h1 className="text-lg font-semibold">Browse The Categories</h1>
           <h2 className="mt-4 font-semibold">Content</h2>
@@ -61,6 +64,27 @@ export default function DesktopFilter() {
           </div>
         </div>
       </div>
-    </>
+      {/* Mobile View */}
+      <div className="absolute right-4 z-50 md:hidden">
+        <button
+          className="e p-5 text-black"
+          onClick={() => setIsModalOpen(true)}
+        >
+          <SlidersHorizontal size={24} />
+        </button>
+      </div>
+      <Modal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        contentOptions={contentOptions}
+        industryOptions={industryOptions}
+        selectedContent={selectedContent}
+        setSelectedContent={setSelectedContent}
+        selectedIndustry={selectedIndustry}
+        setSelectedIndustry={setSelectedIndustry}
+      />
+    </div>
   );
-}
+};
+
+export default DesktopFilter;

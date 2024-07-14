@@ -1,9 +1,9 @@
 import React from "react";
 import { getServerAuthSession } from "~/server/auth";
-import TopSectionCompo from "./_components/somaCap/landingtest";
 import DesktopFilter from "./_components/Filter/DesktopFilter";
 import BlogArticle from "./_components/blog/Blog";
 import Footer from "./_components/HeadnFooter/Footer";
+import LandingPage from "./_components/somaCap/landingtest";
 
 async function fetchSession() {
   const session = await getServerAuthSession();
@@ -19,12 +19,12 @@ export default async function Home() {
 
   return (
     <div>
-      <TopSectionCompo />
-      <div className="relative mx-auto max-w-6xl px-4 py-4">
-        <DesktopFilter />
-      </div>
+      <LandingPage />
       <div className="relative mx-auto max-w-6xl px-4">
-        <BlogArticle />
+        <div className="relative mx-auto min-h-screen max-w-6xl px-4 py-4">
+          <DesktopFilter />
+          <BlogArticle />
+        </div>
       </div>
       <div className="mb-5 flex items-center justify-center">
         <button className="flex items-center justify-center rounded-lg bg-deepPurple px-4 py-2 font-semibold text-white shadow-md hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">

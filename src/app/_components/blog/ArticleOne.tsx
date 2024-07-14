@@ -12,7 +12,7 @@ export default function ArticleOne() {
             alt="Article 1"
             width={300}
             height={300}
-            className="mt-3 object-cover p-2"
+            className="object-cover p-2"
           />
         </div>
 

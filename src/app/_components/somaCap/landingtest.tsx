@@ -7,12 +7,12 @@ import Link from "next/link";
 
 const LandingPage: React.FC = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-r from-purple-800 to-purple-500 text-white">
-      <div className="absolute -top-8 right-10 flex items-center gap-5">
+    <div className="flex min-h-screen flex-col bg-gradient-to-r text-white">
+      <div className="absolute -top-8 left-10 flex items-center gap-28 sm:left-auto sm:right-10 md:gap-5">
         <button className="mt-5 rounded-b-lg bg-white px-5 py-4 text-xl font-bold text-deepPurple hover:bg-gray-200">
           Subscribe to the Soma Newsletter
         </button>
-        <div className="mt-6 flex items-center justify-center rounded-b-lg bg-white p-2 px-1 py-5">
+        <div className="order-first mt-6 flex items-center justify-center rounded-b-lg bg-white p-2 px-1 py-5 md:order-none">
           <Link href="/">
             <Image src="/soma.png" alt="Soma Capital" width={60} height={60} />
           </Link>
@@ -31,11 +31,11 @@ const LandingPage: React.FC = () => {
                 <p>explore our hub for theses and research.</p>
               </div>
             </div>
-            <div className="mt-10 flex w-full justify-center">
+            <div className="mt-0 flex w-full justify-center lg:mt-10">
               <Stack />
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="hidden justify-center overflow-hidden xl:flex">
             <DotCompo />
           </div>
         </div>
