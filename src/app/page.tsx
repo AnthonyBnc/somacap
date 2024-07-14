@@ -1,22 +1,10 @@
 import React from "react";
-import { getServerAuthSession } from "~/server/auth";
 import DesktopFilter from "./_components/Filter/DesktopFilter";
 import BlogArticle from "./_components/blog/Blog";
 import Footer from "./_components/HeadnFooter/Footer";
 import LandingPage from "./_components/somaCap/landingtest";
 
-async function fetchSession() {
-  const session = await getServerAuthSession();
-  return session;
-}
-
-export default async function Home() {
-  const session = await fetchSession();
-  if (typeof window !== "undefined" && session) {
-    window.location.href = "/home";
-    return null;
-  }
-
+export default function Home() {
   return (
     <div className="w-fit md:w-full">
       <LandingPage />
