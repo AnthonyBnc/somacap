@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Soma Capital",
   description: "Soma Capital",
   icons: [{ rel: "icon", url: "https://www.somaportal.com/gray-logo.svg" }],
+  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({
