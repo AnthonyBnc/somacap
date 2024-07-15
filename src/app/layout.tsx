@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=0.7" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body>
         <TRPCReactProvider>{children}</TRPCReactProvider>

@@ -7,9 +7,9 @@ import Link from "next/link";
 
 const LandingPage: React.FC = () => {
   return (
-    <div className="flex min-h-screen w-full flex-col overflow-x-hidden bg-gradient-to-r text-white">
+    <div className="relative flex min-h-screen w-full flex-col overflow-x-hidden bg-gradient-to-r text-white">
       <div className="absolute -top-9 left-10 flex items-center gap-32 sm:left-auto sm:right-10 md:gap-5">
-        <button className="relative mt-3 w-auto min-w-fit rounded-b-lg bg-white px-5 py-3 text-sm font-bold text-deepPurple hover:bg-gray-200 md:text-xl lg:px-5 lg:py-4">
+        <button className="relative w-auto min-w-fit rounded-b-lg bg-white px-5 py-2 text-sm font-bold text-deepPurple hover:bg-gray-200 sm:mt-3 sm:px-5 sm:py-3 md:text-base lg:px-6 lg:py-3 xl:px-8 xl:py-4">
           Subscribe to the Soma Newsletter
         </button>
         <div className="order-first mt-6 flex min-w-fit items-center justify-center rounded-b-lg bg-white p-2 px-1 py-5 md:order-none">
