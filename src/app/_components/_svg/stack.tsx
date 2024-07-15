@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Stack() {
   return (
-    <div className="max-auto z-30 flex w-full max-w-lg items-center justify-center">
+    <div className="z-30 mx-auto flex h-auto max-w-full items-center justify-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="491"

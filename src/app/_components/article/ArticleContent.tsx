@@ -3,7 +3,7 @@ import React from "react";
 export default function ArticleContent() {
   return (
     <div className="p-6">
-      <h1 className="hidden text-3xl font-bold md:flex">Enterprise Climate</h1>
+      <h1 className="hidden text-3xl font-bold lg:flex">Enterprise Climate</h1>
       <p className="mt-2 text-gray-600">
         The industry is flush with venture capital funding, and startups in the
         space can command massive valuation premiums.

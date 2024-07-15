@@ -10,7 +10,7 @@ export default function DotCompo() {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_118_1913)">
+        <g clipPath="url(#clip0_118_1913)">
           <circle cx="1.5" cy="1.5" r="1.5" fill="#D2D6DB" />
           <circle cx="54.5" cy="1.5" r="1.5" fill="#D2D6DB" />
           <circle cx="107.5" cy="1.5" r="1.5" fill="#D2D6DB" />

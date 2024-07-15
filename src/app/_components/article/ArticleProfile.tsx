@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ArticleProfile() {
   return (
-    <div className="flex flex-row items-center border-b-2 border-t-2 border-black p-7 md:flex-col md:items-start md:border-none">
+    <div className="flex flex-row items-center border-b-2 border-t-2 border-black p-7 lg:flex-col lg:items-start lg:border-none">
       <Image
         src="/User2.jpg"
         alt="Profile"
@@ -10,17 +10,17 @@ export default function ArticleProfile() {
         height={100}
         className="rounded-full"
       />
-      <div className="ml-7 mt-6 text-left md:ml-0 md:mt-4">
-        <h2 className="text-md font-semibold md:text-xl">Jiayan Luo</h2>
-        <div className="mt-2 w-full md:w-40">
-          <p className="md:text-md text-sm text-gray-600">
+      <div className="ml-7 mt-6 text-left lg:ml-0 lg:mt-4">
+        <h2 className="text-lg font-semibold lg:text-xl">Jiayan Luo</h2>
+        <div className="mt-2 w-full lg:w-40">
+          <p className="text-sm text-gray-600 lg:text-lg">
             C&S & History at Northwestern
           </p>
-          <p className="md:text-md mt-1 text-sm text-gray-600 md:mt-0">
+          <p className="mt-1 text-sm text-gray-600 lg:mt-0 lg:text-lg">
             Incoming at Palantir | prev at Modern Treasury, Kleiner Perkins
             Fellowship, Battery Ventures, Cisco Meraki
           </p>
-          <p className="md:text-md mt-2 text-sm text-gray-600">
+          <p className="mt-2 text-sm text-gray-600 lg:text-lg">
             Jan 10, 2022 • Research
           </p>
         </div>

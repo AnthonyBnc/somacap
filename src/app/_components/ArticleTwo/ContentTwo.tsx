@@ -4,7 +4,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="p-6">
-      <h1 className="hidden text-3xl font-bold md:flex">Tech Innovations</h1>
+      <h1 className="hidden text-3xl font-bold lg:flex">Tech Innovations</h1>
       <p className="mt-2 text-gray-600">
         Exploring the latest trends and advancements in technology.
       </p>
