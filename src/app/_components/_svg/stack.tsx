@@ -2,13 +2,14 @@ import React from "react";
 
 export default function Stack() {
   return (
-    <div className="z-30">
+    <div className="max-auto z-30 flex w-full max-w-lg items-center justify-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="491"
         height="300"
         viewBox="0 0 491 300"
         fill="white"
+        preserveAspectRatio="xMidYMid meet"
       >
         <path
           d="M248.203 270.325L12.6421 208.893L248.203 147.455L483.763 208.893L248.203 270.325Z"
