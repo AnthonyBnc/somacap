@@ -7,7 +7,7 @@ import LandingPage from "./_components/somaCap/landingtest";
 export default function Home() {
   return (
     <>
-      <div className="relative">
+      <div className="relative w-fit">
         <div className="relative w-full">
           <LandingPage />
           <div className="relative px-4">
