@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BgR() {
   return (
-    <div className="max-w-screen absolute right-0 z-0 hidden max-h-screen overflow-hidden lg:flex">
+    <div className="max-w-screen absolute right-0 z-0 hidden max-h-screen overflow-hidden xl:flex">
       <svg
         width="793"
         height="669"

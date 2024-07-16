@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { SlidersHorizontal } from "lucide-react";
 import Modal from "./Modal";
+import { Minus } from "lucide-react";
 
 const DesktopFilter = () => {
   const [selectedContent, setSelectedContent] = useState("All");
@@ -25,9 +26,12 @@ const DesktopFilter = () => {
 
   return (
     <div className="relative">
-      <div className="hidden p-4 md:block">
+      <div className="hidden md:block">
         <div className="mb-4">
-          <h1 className="text-lg font-semibold">Browse The Categories</h1>
+          <div className="flex items-center gap-2">
+            <h1 className="text-lg font-semibold">Browse The Categories</h1>
+            <Minus size={24} />
+          </div>
           <h2 className="mt-4 font-semibold">Content</h2>
           <div className="mt-2 flex flex-wrap gap-2">
             {contentOptions.map((option) => (
@@ -65,12 +69,9 @@ const DesktopFilter = () => {
         </div>
       </div>
       {/* Mobile View */}
-      <div className="absolute right-4 z-50 md:hidden">
-        <button
-          className="e p-5 text-black"
-          onClick={() => setIsModalOpen(true)}
-        >
-          <SlidersHorizontal size={24} />
+      <div className="z-50 mt-6 flex md:hidden">
+        <button className="text-black" onClick={() => setIsModalOpen(true)}>
+          <SlidersHorizontal size={36} />
         </button>
       </div>
       <Modal
