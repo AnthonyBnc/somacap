@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Stack() {
   return (
-    <div className="z-30 mx-auto flex h-auto max-w-full items-center justify-center">
+    <div className="z-30 mx-auto flex h-auto w-full max-w-full items-center justify-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="491"
@@ -10,6 +10,7 @@ export default function Stack() {
         viewBox="0 0 491 300"
         fill="white"
         preserveAspectRatio="xMidYMid meet"
+        className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl"
       >
         <path
           d="M248.203 270.325L12.6421 208.893L248.203 147.455L483.763 208.893L248.203 270.325Z"

@@ -4,11 +4,11 @@ export default function ArticleContent() {
   return (
     <div className="p-6">
       <h1 className="hidden text-3xl font-bold lg:flex">Enterprise Climate</h1>
-      <p className="mt-2 text-gray-600">
+      <p className="mt-2 hidden text-gray-600 lg:flex">
         The industry is flush with venture capital funding, and startups in the
         space can command massive valuation premiums.
       </p>
-      <div className="mt-4">
+      <div className="mt-0 lg:mt-4">
         <img
           src="https://miro.medium.com/v2/resize:fit:1400/format:webp/0*owaiVANQZZrYYlrO"
           alt="Market Map"

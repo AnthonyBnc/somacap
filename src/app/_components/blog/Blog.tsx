@@ -8,16 +8,16 @@ export default function BlogArticle() {
     <>
       <div className="p-0 md:p-4">
         <div className="mb-4">
-          <div className="flex flex-row items-center justify-center gap-24 md:flex-col md:items-start md:gap-2">
+          <div className="flex flex-row items-center justify-center gap-8 md:flex-col md:items-start md:gap-2">
             <DesktopFilter />
-            <div className="order-first mt-5 flex flex-row gap-2 md:order-none">
-              <h1 className="text-4xl font-semibold md:mt-0 md:text-lg">
+            <div className="order-first mt-5 flex flex-row md:order-none">
+              <h1 className="text-3xl font-semibold md:mt-0 md:text-lg">
                 Featured Articles
               </h1>
-              <Minus size={24} className="mt-3 md:mt-1" />
+              <Minus size={30} className="mt-1 md:mt-0" />
             </div>
           </div>
-          <div className="mt-7 flex items-center justify-center md:mt-4">
+          <div className="mt-4 flex items-center justify-center p-2 md:mt-4">
             <BlogList />
           </div>
         </div>

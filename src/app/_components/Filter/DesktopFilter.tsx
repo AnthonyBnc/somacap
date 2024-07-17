@@ -28,9 +28,9 @@ const DesktopFilter = () => {
     <div className="relative">
       <div className="hidden md:block">
         <div className="mb-4">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center">
             <h1 className="text-lg font-semibold">Browse The Categories</h1>
-            <Minus size={24} />
+            <Minus size={30} />
           </div>
           <h2 className="mt-4 font-semibold">Content</h2>
           <div className="mt-2 flex flex-wrap gap-2">
@@ -71,7 +71,7 @@ const DesktopFilter = () => {
       {/* Mobile View */}
       <div className="z-50 mt-6 flex md:hidden">
         <button className="text-black" onClick={() => setIsModalOpen(true)}>
-          <SlidersHorizontal size={36} />
+          <SlidersHorizontal size={26} />
         </button>
       </div>
       <Modal
