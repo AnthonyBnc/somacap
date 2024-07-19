@@ -2,12 +2,12 @@ import React from "react";
 
 export default function DotCompo() {
   return (
-    <div className="absolute top-20 z-10 h-fit w-fit overflow-hidden md:mt-40 lg:-top-8 lg:block lg:max-h-full lg:w-fit lg:overflow-hidden xl:mt-40">
+    <div className="absolute top-12 z-10 h-fit w-fit overflow-hidden md:mt-60 lg:-top-8 lg:block lg:max-h-full lg:w-full lg:overflow-hidden xl:mt-72 2xl:mt-32 2xl:max-h-fit">
       <svg
         width="1342"
-        height="636"
+        height="600"
         viewBox="0 0 1342 636"
-        className="lg:h-auto lg:w-full lg:max-w-none"
+        className="rotate-90 object-cover md:w-full md:max-w-none md:rotate-0 lg:h-auto"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >

@@ -12,14 +12,14 @@ const LandingPage: React.FC = () => {
         <LandingHeader />
       </div>
       <BgR />
-      <div className="relative mb-2 mt-20 flex min-h-fit w-full flex-1 flex-col items-center justify-center p-3 sm:w-full sm:p-0 md:min-h-screen lg:mt-7">
+      <div className="relative mb-2 mt-20 flex min-h-fit w-full flex-1 flex-col items-center justify-center p-2 sm:w-full sm:p-0 md:min-h-screen lg:mt-7">
         <div className="flex w-full max-w-full flex-col items-center">
-          <div className="flex flex-col items-center space-x-4 p-4 md:mt-10 md:gap-12 lg:flex-row lg:py-4">
+          <div className="flex flex-col items-center space-x-4 p-4 md:mt-5 md:flex-row md:gap-12 lg:py-4">
             <div className="z-40 max-w-lg text-left lg:py-4">
               <h1 className="text-5xl font-bold lg:text-7xl">
                 You’ve entered the LatticeSphere
               </h1>
-              <div className="w-2/3 text-2xl font-light italic tracking-wide sm:w-fit lg:text-4xl">
+              <div className="w-3/4 text-2xl font-light italic tracking-wide sm:w-fit lg:text-4xl">
                 <p className="mt-5">connect the nodes.</p>
                 <p>explore our hub for theses and research.</p>
               </div>
@@ -30,7 +30,7 @@ const LandingPage: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="flex h-fit justify-center overflow-hidden">
+      <div className="w-ful flex h-fit justify-center overflow-hidden">
         <DotCompo />
       </div>
     </div>

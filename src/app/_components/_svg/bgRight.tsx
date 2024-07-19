@@ -2,12 +2,13 @@ import React from "react";
 
 export default function BgR() {
   return (
-    <div className="max-w-screen absolute right-0 z-0 hidden max-h-screen overflow-hidden xl:flex">
+    <div className="max-w-screen absolute right-0 z-0 hidden h-screen max-h-screen overflow-hidden xl:flex">
       <svg
-        width="793"
-        height="669"
+        width="853"
+        height="769"
         viewBox="0 0 793 669"
         fill="none"
+        className="overflow-cover"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path

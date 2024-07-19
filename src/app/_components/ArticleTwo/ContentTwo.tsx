@@ -10,11 +10,11 @@ const Content = () => {
       </p>
       <div className="mt-4">
         <Image
-          src="/ArticleImage.png"
+          src="/greencity.jpeg"
           alt="Tech Innovations"
           width={800}
-          height={400}
-          className="rounded-lg"
+          height={300}
+          className="w-full rounded-lg lg:h-96"
         />
       </div>
       <div className="mt-6">

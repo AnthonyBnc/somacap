@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function ArticleOne() {
   return (
     <>
-      <div className="max-w-md overflow-hidden rounded-3xl bg-purple-950 p-5 text-white shadow-lg md:p-2">
+      <div className="relative max-w-md overflow-visible rounded-3xl bg-purple-950 p-5 text-white shadow-lg md:p-2">
         <div className="flex justify-center sm:p-2">
           <Image
             src="/ArticleImage.png"
@@ -31,7 +31,35 @@ export default function ArticleOne() {
               className="mr-5 h-16 w-16 rounded-full object-cover sm:h-10 sm:w-10"
             />
             <div>
-              <p className="text-xl font-semibold sm:text-base">Molly Smith</p>
+              <div className="text-xl font-semibold sm:text-base">
+                <div className="group relative inline-block">
+                  <a className="cursor-pointer hover:underline">Molly Smith</a>
+                  <div className="absolute left-32 top-5 z-50 mt-2 w-80 -translate-x-1/2 scale-0 rounded bg-gray-50 p-5 text-black shadow-xl transition-transform duration-200 ease-in-out group-hover:scale-100 lg:left-40 lg:top-5">
+                    <div className="flex items-center">
+                      <Image
+                        src="/User1.jpg"
+                        alt="User 1"
+                        width={50}
+                        height={50}
+                        className="h-16 w-16 rounded-full object-cover sm:h-12 sm:w-12"
+                      />
+                      <div className="ml-3 text-lg font-semibold">
+                        Molly Smith
+                      </div>
+                    </div>
+                    <div className="mt-2 text-sm font-normal">
+                      Software Engineer at TechCorp Formerly at Startup Inc,
+                      Google
+                    </div>
+                    <div className="mt-3 flex items-center justify-between border-t-2 border-deepPurple pt-3">
+                      <div className="text-deepPurple">123 followers</div>
+                      <a className="cursor-pointer rounded-3xl bg-green-500 px-3 py-2 text-white hover:bg-green-700">
+                        Follow
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <p className="text-md text-gray-200 sm:text-sm md:mb-2">
                 Jan 10, 2022 &middot; Thesis
               </p>

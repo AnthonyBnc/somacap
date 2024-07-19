@@ -5,19 +5,21 @@ import React from "react";
 export default function LandingHeader() {
   return (
     <div className="relative z-50 w-full">
-      <div className="xs:gap-6 absolute -top-2 right-7 flex flex-row items-center gap-7 sm:right-10 sm:top-0">
-        <Link
-          href="/"
-          className="mt-2 flex items-center justify-center rounded-b-2xl bg-white p-2 px-1 py-3 sm:hidden"
+      <div className="absolute -top-2 left-6 flex items-center gap-2">
+        <a
+          href="https://somacap.com/"
+          className="mt-2 flex items-center justify-center rounded-b-xl bg-white p-2 px-1 py-3 md:hidden lg:hidden"
         >
           <Image src="/soma.png" alt="Soma Capital" width={45} height={60} />
-        </Link>
-        <button className="relative -mt-3 w-fit min-w-fit rounded-b-2xl bg-gray-100 px-3 py-2 text-sm font-bold text-deepPurple hover:bg-gray-300 sm:px-5 sm:py-3 md:mt-0 md:text-base lg:px-6 lg:py-3 xl:px-6 xl:py-2">
+        </a>
+      </div>
+      <div className="absolute right-7 top-0 flex flex-row items-center">
+        <button className="relative w-fit min-w-fit rounded-b-2xl bg-gray-100 px-2 py-2 text-sm font-bold text-deepPurple hover:bg-gray-300 md:right-3 md:px-5 md:py-4 md:text-2xl lg:right-10 lg:px-6 lg:py-5 lg:text-2xl xl:px-6 xl:py-2">
           Subscribe to the Soma Newsletter
         </button>
       </div>
-      <div className="absolute left-4 top-7 hidden sm:flex md:left-10 lg:left-16 xl:left-20">
-        <Link href="/">
+      <div className="absolute left-4 top-4 hidden md:left-10 md:flex lg:left-16 lg:flex xl:left-20">
+        <Link href="https://somacap.com/">
           <Image src="/soma.png" alt="Soma Capital" width={60} height={60} />
         </Link>
       </div>

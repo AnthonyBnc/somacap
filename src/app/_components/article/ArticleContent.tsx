@@ -14,7 +14,7 @@ export default function ArticleContent() {
           alt="Market Map"
           width={800}
           height={400}
-          className="rounded-lg"
+          className="w-full"
         />
       </div>
       <div className="mt-6">

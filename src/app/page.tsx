@@ -15,11 +15,7 @@ export default function Home() {
               <BlogArticle />
             </div>
           </div>
-          <div className="mb-5 flex items-center justify-center">
-            <button className="hidden items-center justify-center rounded-lg bg-deepPurple px-4 py-2 font-semibold text-white shadow-md hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 md:flex">
-              More Article
-            </button>
-          </div>
+
           <Footer />
         </div>
       </div>

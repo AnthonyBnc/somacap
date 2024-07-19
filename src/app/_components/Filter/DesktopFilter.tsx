@@ -37,7 +37,7 @@ const DesktopFilter = () => {
             {contentOptions.map((option) => (
               <button
                 key={option}
-                className={`rounded-md border px-4 py-2 ${
+                className={`rounded-md border px-5 py-0 ${
                   selectedContent === option
                     ? "border-purple-500 bg-purple-200 text-purple-800"
                     : "border-gray-300 bg-gray-100 text-gray-700"
@@ -55,7 +55,7 @@ const DesktopFilter = () => {
             {industryOptions.map((option) => (
               <button
                 key={option}
-                className={`rounded-md border px-4 py-2 ${
+                className={`rounded-md border px-5 py-0 ${
                   selectedIndustry === option
                     ? "border-purple-500 bg-purple-200 text-purple-800"
                     : "border-gray-300 bg-gray-100 text-gray-700"
