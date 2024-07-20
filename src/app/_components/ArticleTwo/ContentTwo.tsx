@@ -14,7 +14,7 @@ const Content = () => {
           alt="Tech Innovations"
           width={800}
           height={300}
-          className="w-full rounded-lg lg:h-96"
+          className="w-full rounded-lg lg:h-auto"
         />
       </div>
       <div className="mt-6">

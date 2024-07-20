@@ -15,7 +15,6 @@ export default function Home() {
               <BlogArticle />
             </div>
           </div>
-
           <Footer />
         </div>
       </div>

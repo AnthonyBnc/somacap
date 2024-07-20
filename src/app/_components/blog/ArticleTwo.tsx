@@ -40,10 +40,12 @@ export default function ArticleTwo() {
                     <div className="mt-2 text-sm font-normal">
                       Climate Researcher at EcoCorp, Published Author
                     </div>
-                    <div className="mt-3 flex items-center justify-between border-t-2 border-deepPurple pt-3">
-                      <div className="text-deepPurple">456 followers</div>
-                      <a className="cursor-pointer rounded-3xl bg-green-500 px-3 py-2 text-white hover:bg-green-700">
-                        Follow
+                    <div className="mt-3 flex items-center justify-end border-t-2 border-deepPurple pt-3">
+                      <a
+                        href="/Profile"
+                        className="cursor-pointer rounded-3xl bg-green-500 px-3 py-2 text-white hover:bg-green-700"
+                      >
+                        View Profile
                       </a>
                     </div>
                   </div>

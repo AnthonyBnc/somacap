@@ -1,17 +1,43 @@
 import React from "react";
 
-export default function MobileDotCompo() {
+export default function DotCompo() {
   return (
-    <div className="h-full w-full">
+    <div className="h-fit w-fit">
       <svg
-        width="100%"
-        height="100%"
+        width="1342"
+        height="600"
         viewBox="0 0 1342 636"
         className="object-cover"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g clipPath="url(#clip0_118_1913)">
+          <circle cx="1.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="54.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="107.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="160.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="213.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="266.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="319.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="372.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="425.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="478.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="531.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="584.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="637.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="690.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="743.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="796.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="849.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="902.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="955.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="1008.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="1061.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="1114.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="1167.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="1220.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="1273.5" cy="1.5" r="1.5" fill="#D2D6DB" />
+          <circle cx="1326.5" cy="1.5" r="1.5" fill="#D2D6DB" />
           <circle cx="1.5" cy="54.5" r="1.5" fill="#D2D6DB" />
           <circle cx="54.5" cy="54.5" r="1.5" fill="#D2D6DB" />
           <circle cx="107.5" cy="54.5" r="1.5" fill="#D2D6DB" />

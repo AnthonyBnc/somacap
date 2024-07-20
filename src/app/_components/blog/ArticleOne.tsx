@@ -7,13 +7,15 @@ export default function ArticleOne() {
     <>
       <div className="relative max-w-md overflow-visible rounded-3xl bg-purple-950 p-5 text-white shadow-lg md:p-2">
         <div className="flex justify-center sm:p-2">
-          <Image
-            src="/ArticleImage.png"
-            alt="Article 1"
-            width={400}
-            height={300}
-            className="object-cover"
-          />
+          <Link href="/ArticlePageTwo">
+            <Image
+              src="/ArticleImage.png"
+              alt="Article 1"
+              width={400}
+              height={300}
+              className="object-cover"
+            />
+          </Link>
         </div>
 
         <div className="mb-1 ml-1 mt-5 flex flex-col md:mb-1 md:ml-2 md:mt-1 md:p-1">
@@ -51,10 +53,12 @@ export default function ArticleOne() {
                       Software Engineer at TechCorp Formerly at Startup Inc,
                       Google
                     </div>
-                    <div className="mt-3 flex items-center justify-between border-t-2 border-deepPurple pt-3">
-                      <div className="text-deepPurple">123 followers</div>
-                      <a className="cursor-pointer rounded-3xl bg-green-500 px-3 py-2 text-white hover:bg-green-700">
-                        Follow
+                    <div className="mt-3 flex items-center justify-end border-t-2 border-deepPurple pt-3">
+                      <a
+                        href="/Profile"
+                        className="cursor-pointer rounded-3xl bg-green-500 px-3 py-2 text-white hover:bg-green-700"
+                      >
+                        View Profile
                       </a>
                     </div>
                   </div>
