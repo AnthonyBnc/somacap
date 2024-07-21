@@ -38,7 +38,7 @@ export default function ArticleTwo() {
                       </div>
                     </div>
                     <div className="mt-2 text-sm font-normal">
-                      Climate Researcher at EcoCorp, Published Author
+                      C&S & History at Northwestern Incoming at Palantir
                     </div>
                     <div className="mt-3 flex items-center justify-end border-t-2 border-deepPurple pt-3">
                       <a

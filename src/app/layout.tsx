@@ -21,10 +21,7 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <meta
-          name="theme-color"
-          content="#39ff14"
-        />
+        <meta name="theme-color" content="#2A005F" />
       </head>
       <body>
         <TRPCReactProvider>{children}</TRPCReactProvider>
