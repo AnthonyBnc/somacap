@@ -55,7 +55,7 @@ export default function ArticleOne() {
                     </div>
                     <div className="mt-3 flex items-center justify-end border-t-2 border-deepPurple pt-3">
                       <a
-                        href="/Profile"
+                        href="/#"
                         className="cursor-pointer rounded-3xl bg-green-500 px-3 py-2 text-white hover:bg-green-700"
                       >
                         View Profile
