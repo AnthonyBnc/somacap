@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Building2, Calendar } from "lucide-react";
 
 const Profile = () => {
   return (
@@ -16,13 +17,16 @@ const Profile = () => {
         <div className="ml-7 mt-2 inline-block text-left align-top lg:ml-0 lg:mt-4">
           <h2 className="text-lg font-semibold lg:text-xl">Molly Smith</h2>
           <div className="mt-2 w-full lg:w-40">
-            <p className="text-xs text-gray-600 lg:text-lg">
+            <p className="flex-row text-xs text-gray-500 lg:text-lg">
+              <Building2 />
               Software Engineer at TechCorp
             </p>
-            <p className="mt-1 text-xs text-gray-600 lg:mt-0 lg:text-lg">
+            <p className="mt-1 text-xs text-gray-500 lg:mt-0 lg:text-lg">
               Formerly at Startup Inc, Google
             </p>
-            <p className="mt-2 text-xs text-gray-600 lg:text-lg">
+
+            <p className="mt-2 text-xs text-gray-500 lg:text-lg">
+              <Calendar />
               Feb 15, 2023 • Insights
             </p>
           </div>
