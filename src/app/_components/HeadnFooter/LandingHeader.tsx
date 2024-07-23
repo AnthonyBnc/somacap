@@ -18,9 +18,9 @@ export default function LandingHeader() {
           Subscribe to the Soma Newsletter
         </button>
       </div>
-      <div className="absolute left-6 top-4 hidden md:left-10 md:flex lg:left-16 lg:flex xl:left-20">
+      <div className="absolute left-6 top-6 hidden md:left-10 md:flex lg:left-16 lg:flex xl:left-20">
         <Link href="https://somacap.com/">
-          <Image src="/soma.png" alt="Soma Capital" width={60} height={60} />
+          <Image src="/soma.png" alt="Soma Capital" width={80} height={80} />
         </Link>
       </div>
     </div>
